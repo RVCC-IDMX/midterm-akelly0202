@@ -1,8 +1,74 @@
 /* Styles for Mobile Site */
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&display=swap');
+
+/* Color Palette */
+:root {
+    --bg: #1E2A32;
+    --text: #FAF8F2;
+    --accent: #B88B11;
+    /* buttons, highlights */
+    --secondary: #8F6E49;
+    /*cards, surfaces */
+    --neutral: #D7D2C8;
+    /*section backgrounds*/
+}
+
+body {
+    font-family: 'Cormorant Garamond', serif;
+    background-color: #1E2A32;
+    color: #FAF8F2;
+    margin: 0;
+    text-align: center;
+    line-height: 1.6;
+}
 
 /* Header & Hero */
+header {
+
+    background-color: #1E2A32;
+    color: #FAF8F2;
+    text-align: center;
+    padding: 1em;
+}
+
+header h1 {
+    color: #B88B11;
+    font-size: 3.5em;
+    margin-bottom: 0.5em;
+}
+
+#hero img {
+    width: 100%;
+    height: auto;
+    max-height: 500px;
+    object-fit: cover;
+    border-radius: 12px;
+    filter: brightness(90%);
+}
+
+#hero p {
+    color: #FAF8F2;
+    font-size: 1.6em;
+    margin-top: 0.75em;
+}
 
 /* Projects */
+section.projects {
+    background-color: #D7D2C8;
+    color: #1E2A32;
+}
+
+/* Buttons */
+button {
+    background-color: #B88B11;
+    color: #1E2A32;
+}
+
+button:hover {
+    background-color: #8F6E49;
+    color: #FAF8F2;
+}
 
 /* Reviews */
 
