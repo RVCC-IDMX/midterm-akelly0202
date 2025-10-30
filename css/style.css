@@ -53,10 +53,47 @@ header h1 {
     margin-top: 0.75em;
 }
 
-/* Projects */
-section.projects {
-    background-color: #D7D2C8;
+/* Services */
+#services {
+    background-color: #FAF8F2;
     color: #1E2A32;
+    Padding: 2em 1em;
+    border-radius: 12px;
+    margin: 2em 0;
+    text-align: center;
+    flex-direction: column;
+}
+
+#services h2 {
+    color: #B88B11;
+    margin-bottom: 1em;
+    font-size: 2.5em;
+}
+
+.service {
+    margin-bottom: 2em;
+}
+
+.service img {
+    width: 80%;
+    border-radius: 8px;
+    margin-bottom: 0.5em;
+    height: 400px;
+    object-fit: cover;
+    object-position: center 30%;
+}
+
+.service h3 {
+    color: #1E2A32;
+    margin-bottom: 0.3em;
+    font-size: 1.5em;
+}
+
+.service p {
+    color: #1E2A32;
+    margin: 0 auto;
+    max-width: 500px;
+    font-size: 1.2em;
 }
 
 /* Buttons */
