@@ -237,7 +237,7 @@ footer .credits {
     }
 
     /* Media state for Desktop site */
-    @media (min-width: 100em) {
+    @media (min-width: 63em) {
 
         /* Header & Hero */
 
@@ -249,27 +249,38 @@ footer .credits {
             align-items: start;
         }
 
-        #service>h2 {
+        #services h2 {
             grid-column: 1 / -1;
+            text-align: center;
+            margin-bottom: 1rem;
         }
 
-        #service>hr {
-            display: none;
+
+        #services .service {
+            display: block;
+            text-align: center;
+            margin: 0;
         }
 
-        #service img {
-            height: 425px;
+        #services .service img {
+            width: 100%;
+            height: 320px;
             object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 1rem;
+        }
+
+        #services .service h3 {
+            margin: 0 0 0.5rem;
+        }
+
+        #services .service p {
+            margin: 0 auto;
+            max-width: 90%;
+            line-height: 1.5;
         }
     }
 
-    #service>figure>figcaption {
-        display: block;
-        text-align: center;
-        margin-top: .75rem;
-    }
-}
+    /* Reviews */
 
-/* Reviews */
-
-/* Footer */
+    /* Footer */
