@@ -195,6 +195,24 @@ footer .credits {
     color: #D7D2C8;
 }
 
+#video {
+    text-align: center;
+    margin: 2rem auto;
+}
+
+#video iframe {
+    aspect-ratio: 16 / 9;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+#video .caption {
+    font-style: italic;
+    color: #D7D2C8;
+    margin-top: 0.5rem;
+    font-size: 1rem;
+}
+
 /* Media state for Ipad */
 
 @media screen and (min-width: 48em) {
